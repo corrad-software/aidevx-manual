@@ -167,7 +167,6 @@ Ready to dive deeper? Choose your path:
 
 1. [Set Up Your First Project →](/project-management)
 2. [Try AI Assistants →](/assistant-settings)
-3. [Explore Guide Chats →](/guide-chats)
 
 ::: warning Remember
 - Save your work regularly

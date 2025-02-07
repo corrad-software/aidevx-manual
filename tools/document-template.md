@@ -50,22 +50,6 @@ Export steps:
 2. Choose template from dropdown
 3. Click "Export" to generate document
 
-### Template Preview
-![Template Preview](../image/aidevx/tools-docx-template-preview.png)
-
-Preview features:
-- View formatted document
-- Check header/footer
-- Verify page layout
-- Confirm styles
-
-::: warning Important Notes
-- Save changes before previewing
-- Test templates with sample content
-- Verify formatting in exported documents
-- Keep template names descriptive
-:::
-
 <style>
 .feature-section {
   margin: 2rem 0;

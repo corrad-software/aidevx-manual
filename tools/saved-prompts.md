@@ -79,4 +79,4 @@ Before deleting prompts:
 - Consider archiving important prompts
 :::
 
-For information about using saved prompts in conversations, visit the [Project Management](./project-management.md) section. 
+For information about using saved prompts in conversations, visit the [Project Management](../project-management.md) section. 
