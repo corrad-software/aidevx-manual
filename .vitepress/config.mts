@@ -66,8 +66,11 @@ export default defineConfig({
       {
         text: "Features",
         items: [
-          { text: "AI Assistants", link: "/assistant-settings" },
-          { 
+          {
+            text: "Core Features",
+            items: [{ text: "AI Assistants", link: "/assistant-settings" }],
+          },
+          {
             text: "Development Tools",
             items: [
               { text: "Tools Overview", link: "/tools/" },
@@ -76,9 +79,9 @@ export default defineConfig({
               { text: "Mermaid Diagrams", link: "/tools/mermaid-diagrams" },
               { text: "Repository", link: "/tools/repository" },
               { text: "Saved Prompts", link: "/tools/saved-prompts" },
-            ]
-          }
-        ]
+            ],
+          },
+        ],
       },
     ],
 
@@ -97,14 +100,7 @@ export default defineConfig({
             { text: "Chat Interface", link: "/chat-interface" },
             { text: "Project Management", link: "/project-management" },
             { text: "Settings", link: "/settings" },
-            { 
-              text: "AI Assistants",
-              collapsed: false,
-              items: [
-                { text: "Managing Assistants", link: "/assistant-settings" },
-                { text: "Guide Chats", link: "/guide-chats/" },
-              ]
-            },
+            { text: "AI Assistants", link: "/assistant-settings" },
           ],
         },
         {
@@ -112,21 +108,24 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "Tools Overview", link: "/tools/" },
-            { 
+            {
               text: "Content Creation",
               items: [
                 { text: "Markdown Editor", link: "/tools/markdown-editor" },
-                { text: "Document Templates", link: "/tools/document-template" },
+                {
+                  text: "Document Templates",
+                  link: "/tools/document-template",
+                },
                 { text: "Mermaid Diagrams", link: "/tools/mermaid-diagrams" },
-              ]
+              ],
             },
             {
               text: "File Management",
               items: [
                 { text: "Repository", link: "/tools/repository" },
                 { text: "Saved Prompts", link: "/tools/saved-prompts" },
-              ]
-            }
+              ],
+            },
           ],
         },
       ],
