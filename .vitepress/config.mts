@@ -66,13 +66,7 @@ export default defineConfig({
       {
         text: "Features",
         items: [
-          { 
-            text: "Core Features",
-            items: [
-              { text: "AI Assistants", link: "/assistant-settings" },
-              { text: "Guide Chats", link: "/guide-chats/" },
-            ]
-          },
+          { text: "AI Assistants", link: "/assistant-settings" },
           { 
             text: "Development Tools",
             items: [
